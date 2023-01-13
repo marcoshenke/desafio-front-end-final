@@ -11,6 +11,8 @@
 
 .img-logo-overwatch {
     filter: contrast(180%);
+    width: 19rem;
+    height: 10rem;
 }
 
 .welcome-play {
@@ -24,4 +26,36 @@
 
 .logo-platforms {
     width: 1.5rem;
+}
+
+section {
+    height: 100vh !important;
+}
+
+.play-all {
+    background-color: gray;
+    width: 20rem;
+    height: 4rem;
+}
+
+.w-70 {
+    width: 70%
+}
+
+.section-2 {
+    background-color: black;
+}
+
+.button-acess {
+    margin-bottom: 6rem;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    background-color: rgb(221, 46, 46);
+    /* border: 1px solid black; */
+    border-left: 10rem solid red;
+    border-top: 8rem solid transparent;
+    border-bottom: 8rem solid transparent;
 }
