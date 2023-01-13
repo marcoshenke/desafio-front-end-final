@@ -63,8 +63,10 @@ section {
 }
 
 .parallelogram {
-    width: 16rem;
+    width: 32rem;
     height: 100vh;
     background-color: white;
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    position: absolute;
+    left: 26rem;
 }
