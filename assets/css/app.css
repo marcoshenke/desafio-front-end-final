@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,200;0,300;0,400;1,500&display=swap');
+
+:root {
+    --green: #23B732;
+    --blue: #3EADDE;
+    --orange: #FA9C1F;
+    --red: #DE3E3E;
+    --purple: #620069;
+  }
+  
+
+.img-logo-overwatch {
+    filter: contrast(180%);
+}
+
+.welcome-play {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.button-acess {
+    background-color: var(--orange);
+}
+
+.logo-platforms {
+    width: 1.5rem;
+}
