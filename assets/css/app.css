@@ -6,7 +6,7 @@
     --orange: #FA9C1F;
     --red: #DE3E3E;
     --purple: #620069;
-    --gray: #EBEBEB;
+    --gray: #EBEBEB;    
   }
   
 
@@ -90,14 +90,21 @@ section {
     z-index: 3;    
 }
 
-.arrows {
+.container-arrows {
     top: 70px;
-    left: 775px;
-    background-color: transparent;
+    left: 775px;    
     z-index: 4;
+    width: 160px;
+    height: 100px;
 }
 
-.arrows-img {
-    width: 150px;
-    background-color: transparent;    
+.arrow-common {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(270deg);
 }
+
+
+
