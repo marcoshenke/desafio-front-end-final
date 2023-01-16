@@ -10,16 +10,19 @@
   <body >
     <main class="bg-white w-100 h-100 d-flex">
         <section class="d-flex flex-column w-70 align-items-center justify-content-center">
-            <img  class="img-logo-overwatch" src="/assets/images/overwatch-logo 1.png" alt="logo Overwatch" ">
-            <div class="login-acess mt-4 d-flex flex-column w-75 align-items-center gap-1">
-              <span class="welcome-play fs-5">BEM-VINDO, HERÓI!</span>
+            <img  class="img-logo-overwatch" src="/assets/images/overwatch-logo 1.png" alt="logo Overwatch">
+            <div class="container-father-form w-100 d-flex flex-column align-items-center">
+              <span class="welcome-play fs-5 fw-boler text-start w-75 p-1">BEM-VINDO, HERÓI!</span>
+            <form class="gap-2 login-acess mt-4 d-flex flex-column w-100 align-items-center gap-1">              
               <label for="e-mail"></label>
-              <input class="input w-50"type="email" name="e-mail" id="e-mail" placeholder="E-MAIL">
+              <input class="input p-3 border border-0 fw-bold rounded"type="email" name="e-mail" id="e-mail" placeholder="E-MAIL">
               <label  for="password"></label>
-              <input  class="input w-50" type="email" name="password" id="password" placeholder="SENHA">
-              <button type="submit" class="button-acess w-50">ACESSAR</button>
+              <input  class="input p-3 border border-0 fw-bold rounded" type="password" name="password" id="password" placeholder="SENHA">
+              <button type="submit" class="button-acess fw-bold border border-0 rounded">ACESSAR</button>
+            </form>
             </div>
-            <div class="play-all d-flex flex-column justify-content-center fw-bold align-items-center">
+            
+            <div class="play-all d-flex flex-column justify-content-center fw-bold align-items-center rounded">
               <span class="fs-6">JOGUE EM TODAS AS PLATAFORMAS</span>
               <div class="platforms d-flex align-content-center justify-content-center gap-2">
                 <img class="logo-platforms" src="/assets/images/logotipo-do-xbox.png" alt="logo xbox">

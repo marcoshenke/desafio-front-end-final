@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,200;0,300;0,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,200;0,300;0,400;1,500&family=Roboto:wght@100;400;500;700&display=swap');
 
 :root {
     --green: #23B732;
@@ -6,22 +7,29 @@
     --orange: #FA9C1F;
     --red: #DE3E3E;
     --purple: #620069;
-    --gray: #EBEBEB;    
+    --gray: #EBEBEB;
+    --orange-light:#fad91f79;   
   }
   
 
 .img-logo-overwatch {
-    width: 21rem;
-    height: 11rem;
+    width: 28rem;
+    height: 13.5rem;
 }
 
 .welcome-play {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    margin-left: 10rem;
+    border-left: 2px solid gray;
 }
 
-.button-acess {
-    background-color: var(--orange);
+.container-father-form {
+    margin-top: 5rem;
+}
+
+form {
+    transform: skewX(-18deg);
 }
 
 .logo-platforms {
@@ -34,76 +42,78 @@ section {
 
 .input {
     background-color: var(--gray);
+    height: 3.5rem;
+    width: 25rem !important;
+}
+
+.button-acess {
+    background-color: var(--orange);
+    margin-bottom: 6rem;    
+    height: 3.5rem;
+    width: 25rem !important;
 }
 
 .play-all {
     background-color: var(--gray);
-    width: 20rem;
-    height: 4rem;
+    width: 27rem;
+    height: 6rem;
 }
 
 .w-70 {
     width: 50%
 }
 
-.section-2 {
-    /* background-color: black; */
-}
-
-.button-acess {
-    margin-bottom: 6rem;
-}
-
 .triangle {
-    width: 9.5rem;
+    width: 11.5rem;
     height: 100vh;
     background-color: var(--orange);
     clip-path: polygon(88% 0, 0 0, 40% 50%);
     left: 22px; 
     z-index: 2;
     top: -10px;
-    /* transform: rotate(3deg) ; */
+    
 }
 
 .parallelogram {
-    width: 50rem;
+    width: 69rem;
     height: 100vh;
     background-color: rgb(0, 0, 0);
-    clip-path: polygon(18% 0%, 100% 0%, 95% 100%, 0% 100%);
+    clip-path: polygon(15.8% 0%, 100% 0%, 95% 100%, 0% 100%);
     z-index: 1;    
     left: 4px;
     top: 0px;
     background-image: url(/assets/images/coliseu2.jpg);
     background-position: -190px 0px;  
     background-size: cover;
-    filter: brightness(6%) contrast(99%) saturate(0%) grayscale(100%) blur(1px) ;
+    filter: brightness(5%)  grayscale(20%) blur(1px) ;
     opacity: 0.86;
 }
 
 .parallelogram-2 {
-    width: 45rem;
+    width: 48rem;
     height: 100vh;
     background-color: var(--orange);
     clip-path: polygon(78% 0, 100% 0%, 100% 100%, 62% 100%);    
-    left: 220px;
+    left: 463px;
     top: 0px;
     z-index: 3;    
 }
 
 .container-arrows {
     top: 70px;
-    left: 775px;    
+    left: 1016px;    
     z-index: 4;
-    width: 160px;
-    height: 100px;
+    width: 189px;
+    height: 105px;
 }
 
 .arrow-common {
     width: 100px;
     height: 40px;
-    background-color: red;
+    background-color: var(--orange-light);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     transform: rotate(270deg);
+    
 }
 
 
