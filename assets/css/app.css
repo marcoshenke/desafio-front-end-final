@@ -8,13 +8,15 @@
     --red: #DE3E3E;
     --purple: #620069;
     --gray: #EBEBEB;
-    --orange-light:#fad91f79;   
+    --gray-light: #ebebeb7c;
+    --orange-light:#FCB018;   
   }
   
 
 .img-logo-overwatch {
-    width: 28rem;
-    height: 13.5rem;
+    width: 27.5rem;
+    height: 15rem;
+    margin-top: 6rem !important;
 }
 
 .welcome-play {
@@ -29,7 +31,7 @@
 }
 
 form {
-    transform: skewX(-18deg);
+    transform: skewX(-14deg);
 }
 
 .logo-platforms {
@@ -41,7 +43,7 @@ section {
 }
 
 .input {
-    background-color: var(--gray);
+    background-color: var(--gray-light);
     height: 3.5rem;
     width: 25rem !important;
 }
@@ -57,6 +59,7 @@ section {
     background-color: var(--gray);
     width: 27rem;
     height: 6rem;
+    margin-top: 4rem;
 }
 
 .w-70 {
@@ -82,26 +85,39 @@ section {
     z-index: 1;    
     left: 4px;
     top: 0px;
-    background-image: url(/assets/images/coliseu2.jpg);
-    background-position: -190px 0px;  
+    background-image: url(/assets/images/coliseu1.png);
+    background-position: -190px 0px; 
+    background-repeat: no-repeat; 
     background-size: cover;
-    filter: brightness(5%)  grayscale(20%) blur(1px) ;
+    filter: brightness(6%);
     opacity: 0.86;
 }
 
 .parallelogram-2 {
-    width: 48rem;
+    width: 55rem;
     height: 100vh;
     background-color: var(--orange);
     clip-path: polygon(78% 0, 100% 0%, 100% 100%, 62% 100%);    
-    left: 463px;
+    left: 357px;
     top: 0px;
     z-index: 3;    
 }
 
+.ellipse {
+    width: 70rem;
+    height: 70rem;
+    bottom: -38rem;
+    right: -54rem;
+    margin: 20px;    
+    border-radius: 50%;
+    background: transparent;    
+    border: 2px solid rgb(255, 255, 255); 
+    z-index: 7;  
+}
+
 .container-arrows {
     top: 70px;
-    left: 1016px;    
+    left: 1007px;    
     z-index: 4;
     width: 189px;
     height: 105px;
@@ -109,12 +125,31 @@ section {
 
 .arrow-common {
     width: 100px;
-    height: 40px;
+    height: 55px;
     background-color: var(--orange-light);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     transform: rotate(270deg);
+    opacity: 0.8;    
+}
+
+.imgs-central {
+    z-index: 5;
+    top: 12rem;
+    left: 0
     
 }
 
+.character {
+    width: 45rem;
+    right: -40rem;
+    z-index: 1;
+}
+
+.logo-central {
+    width: 30rem;
+    top: 13rem;
+    right: -50rem;
+    opacity: 0.3;
+}
 
 
