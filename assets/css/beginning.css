@@ -91,6 +91,7 @@ nav {
 
 .square-2 {
     background-color: #3EADDE;
+    border: 1rem solid #3EADDE;
 }
 
 .skew {
@@ -98,8 +99,75 @@ nav {
 }
 
 .arrows {
-    width: 10rem;
-    background-color: white;
+    width: 5.8rem;   
     z-index: 5;
+    top: 45rem;
+    left: 48rem;
 }
 
+.border1 {
+    width: 20rem;
+    height: 32rem;
+    transform: skewX(-14deg);
+    border-left: 1rem solid #6D007B;
+    
+    z-index: 4;    
+    top: 0rem;
+    left: -3rem;
+}
+
+.border2 {
+    width: 20rem;
+    height: 32rem;
+    transform: skewX(-14deg);
+    border-left: 0.5rem solid #6D007B;
+    z-index: 3;    
+    top: 30rem;
+    left: -10.2rem;
+}
+
+.circle1 {
+    width: 25rem;
+    height: 25rem;    
+    z-index: 3;
+    border-radius: 50%;
+    top: -3rem;
+    left: -2rem;
+    background: radial-gradient(circle, rgba(27,0,122,1) 5%, rgba(26,0,36,1) 70%);
+}
+
+.circle2 {
+  width: 25rem;
+  height: 25rem;    
+  z-index: 3;
+  border-radius: 50%;
+  top: 20rem;
+  left: 10rem;
+  background: radial-gradient(circle, rgba(27,0,122,1) 5%, rgba(26,0,36,1) 70%);
+}
+
+.circle3 {
+  width: 25rem;
+  height: 25rem;    
+  z-index: 2;
+  border-radius: 50%;
+  top: 50rem;
+  left: -14rem;
+  background: radial-gradient(circle, rgba(27,0,122,1) 5%, rgba(26,0,36,1) 70%);
+}
+
+.character1 {
+  z-index: 3;
+  align-self: end;
+  width: 25rem;
+  /* padding-bottom: 1rem;
+  padding-right: 25rem; */
+}
+
+.character2 {
+  z-index: 3;
+  align-self: end;
+  width: 25rem;
+  /* margin-bottom: 1rem;
+  margin-right: 65rem; */
+}
