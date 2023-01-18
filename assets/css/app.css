@@ -89,8 +89,8 @@ section {
     background-position: -190px 0px; 
     background-repeat: no-repeat; 
     background-size: cover;
-    filter: brightness(6%);
-    opacity: 0.86;
+    filter: brightness(8%);  
+    opacity: 90%;
 }
 
 .parallelogram-2 {
@@ -149,7 +149,7 @@ section {
     width: 30rem;
     top: 13rem;
     right: -50rem;
-    opacity: 0.3;
+    opacity: 0.3;    
 }
 
 

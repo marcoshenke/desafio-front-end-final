@@ -1,0 +1,24 @@
+.heros-polygon {
+    clip-path: polygon(48% 0, 100% 0, 100% 100%, 38% 100%);
+    width: 160rem;
+    height: 100vh;
+    background-image: url(/assets/images/coliseu1.png);
+    background-position: 15rem -5rem; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    filter: brightness(8%);  
+    opacity: 90%;    
+    left:-81rem;
+    top: 0px;
+    z-index: 1
+}
+
+.rectangle-heros {
+    width: 21.5rem;
+    height: 5.5rem;
+    background-color: white;    
+}
+
+.avatar-heros {
+    transform: skewX(10deg);
+}

@@ -15,12 +15,16 @@
         <nav class="pt-5 position-fixed d-flex justify-content-center align-items-center">
             <div class="menu d-flex gap-5 align-items-center">
                 <div class="logo">
-                    <img class="logo"src="/assets/images/logo.png" alt="logo">
+                    <a href="/src/index.html">
+                        <img class="logo"src="/assets/images/logo.png" alt="logo">
+                    </a>                    
                 </div>
                 <div class="rounded-2 menu-item-active">INÍCIO</div>
-                <div class="menu-item">HERÓIS</div>
-                <div class="menu-item">NEWS</div>
-                <div class="menu-item sports">SPORTS</div>            
+                <div class="menu-item hover-menu text-black">
+                    <a class="nav-link" href="/src/pages/heros.html">HERÓIS</a>
+                </div>
+                <div class="menu-item hover-menu text-black">NEWS</div>
+                <div class="menu-item sports hover-menu text-black">SPORTS</div>            
             </div>
             <div class="infos-character d-flex gap-4">
                 <div class="rounded-4 square d-flex justify-content-center align-items-center ">
@@ -35,13 +39,14 @@
     
     <main class="h-100 w-100 overflow-hidden d-flex">
         <section class="section1 w-50">
-            <div class="play-ranked d-flex flex-column gap-4 h-25 w-100">
+            <div class="position-relative play-ranked d-flex flex-column gap-4 h-25 w-100">
                 <span class="h-25">JOGAR</span>
                 <span class="h-25">RANQUEADA</span>
                 <span class="h-25">PASSE</span>
                 <span class="h-25">MISSÕES</span>
-                <div class="rounded-4 position-absolute arrow-choose"></div>
+                <div class="rounded-4 position-absolute arrow-choose"></div>                
             </div>
+            <img class="position-absolute background-logo" src="/assets/images/overwatchlogobranco.png" alt="logo branco de fundo">
         </section>
     
         <section class="bg-white position-relative section-2 w-50 d-flex">

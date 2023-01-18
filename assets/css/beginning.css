@@ -46,6 +46,15 @@ nav {
     color: white;
 }
 
+.menu-item {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    color: #FA9C1F !important;
+}
+
 .logo {
     width: 4.5rem;
 }
@@ -61,6 +70,7 @@ nav {
     margin-left: 3rem;
     font-size: 4rem;    
     font-style: italic;
+    z-index: 2;
 }
 
 .arrow-choose {
@@ -68,10 +78,16 @@ nav {
     height: 5rem;
     background-color: #FA9C1F;
     transform: rotate(45deg);
-    left: -4rem;
-    top: 21.5rem;
-    
-    
+    left: -6.5rem;
+    top: 0.5rem;    
+}
+
+.background-logo {
+    width: 38rem;
+    opacity: 40%;
+    z-index: 1;
+    top: 17rem;
+    left: 2.5rem;
 }
 
 .heros-big {
