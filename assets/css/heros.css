@@ -8,7 +8,7 @@
     background-size: cover;
     filter: brightness(8%);  
     opacity: 90%;    
-    left:-81rem;
+    left:-78rem;
     top: 0px;
     z-index: 1
 }
@@ -21,4 +21,50 @@
 
 .avatar-heros {
     transform: skewX(10deg);
+}
+
+.icons-menu {
+    width: 3rem;
+    height: 3rem;
+    transform: skewX(10deg);
+}
+
+.circle-heros {
+    width: 65rem;
+    height: 65rem;
+    border: 0.15rem solid #FA9C1F;
+    border-radius: 50%;
+    z-index: 2;
+    left: -9rem;
+    top: 14rem;
+}
+
+.background-logo-heros {
+    left: 1rem !important;
+    top: 16.2rem !important;
+}
+
+.container-sm-circles {
+    width: 17rem;
+    top: 12rem;
+    left: 15rem;
+    z-index: 2;
+}
+
+.circle-hero-sm {
+    width: 4.2rem;
+    height: 4.2rem;
+    background-color: #FA9C1F;
+    border-radius: 50%;
+}
+
+.icons-character {
+    width: 2.5rem;
+    height: 2.5rem; 
+}
+
+.big-trace {
+    width: 40rem; 
+    margin-left: 12rem;
+    margin-top: 4.2rem;   
 }
