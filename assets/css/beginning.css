@@ -63,6 +63,17 @@ nav {
     font-style: italic;
 }
 
+.arrow-choose {
+    width: 5rem;
+    height: 5rem;
+    background-color: #FA9C1F;
+    transform: rotate(45deg);
+    left: -4rem;
+    top: 21.5rem;
+    
+    
+}
+
 .heros-big {
     font-family: 'Play', sans-serif;
     font-size: 5.5rem;
@@ -109,8 +120,7 @@ nav {
     width: 20rem;
     height: 32rem;
     transform: skewX(-14deg);
-    border-left: 1rem solid #6D007B;
-    
+    border-left: 1rem solid #6D007B;    
     z-index: 4;    
     top: 0rem;
     left: -3rem;
@@ -157,17 +167,18 @@ nav {
 }
 
 .character1 {
-  z-index: 3;
-  align-self: end;
+  z-index: 4;
+  align-self: center;
   width: 25rem;
-  /* padding-bottom: 1rem;
-  padding-right: 25rem; */
+  margin-left: -5rem;
+  margin-top: 4rem;
 }
 
 .character2 {
   z-index: 3;
-  align-self: end;
-  width: 25rem;
-  /* margin-bottom: 1rem;
-  margin-right: 65rem; */
+  align-self: center;
+  width: 23rem;
+  margin-left: 17rem;
+  margin-top: 4rem;
+  transform: scaleX(-1);
 }
