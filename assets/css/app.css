@@ -46,6 +46,8 @@ section {
     background-color: var(--gray-light);
     height: 3.5rem;
     width: 25rem !important;
+    color: #BCB6B6;
+    font-weight: bolder;
 }
 
 .button-acess {
@@ -86,9 +88,9 @@ section {
     left: 4px;
     top: 0px;
     background-image: url(/assets/images/coliseu1.png);
-    background-position: -190px 0px; 
+    background-position: -300px -60px; 
     background-repeat: no-repeat; 
-    background-size: cover;
+    background-size: 170%;
     filter: brightness(8%);  
     opacity: 90%;
 }
@@ -152,6 +154,25 @@ section {
     opacity: 0.3;    
 }
 
+.border1 {
+    width: 5rem;
+    height: 31rem;
+    border-left: 1rem solid #F5F5F5; 
+    z-index: 2;
+    top:0;
+    left: 1.3rem;
+    border-radius: 5%;
+}
+
+.border2 {
+    width: 5rem;
+    height: 61rem;
+    border-left: 0.5rem solid #F5F5F5; 
+    z-index: 2;
+    top:0;
+    left: 1.6rem;
+    border-radius: 5%;
+}
 
 
 
