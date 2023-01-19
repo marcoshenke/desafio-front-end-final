@@ -184,7 +184,7 @@ nav {
 
 .character1 {
   z-index: 4;
-  align-self: center;
+  align-self: end;
   width: 25rem;
   margin-left: -5rem;
   margin-top: 4rem;
@@ -192,7 +192,7 @@ nav {
 
 .character2 {
   z-index: 3;
-  align-self: center;
+  align-self: end;
   width: 23rem;
   margin-left: 17rem;
   margin-top: 4rem;
