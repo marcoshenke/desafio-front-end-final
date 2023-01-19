@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Play:wght@400;700&display=swap');
+
 .heros-polygon {
     clip-path: polygon(48% 0, 100% 0, 100% 100%, 38% 100%);
     width: 160rem;
     height: 100vh;
     background-image: url(/assets/images/coliseu1.png);
-    background-position: 15rem -5rem; 
+    background-color: rgba(0, 0, 0, 0.952);
+    background-position: 40rem 0rem; 
     background-repeat: no-repeat; 
-    background-size: cover;
+    background-size: contain;
     filter: brightness(8%);  
     opacity: 90%;    
     left:-78rem;
@@ -30,24 +33,24 @@
 }
 
 .circle-heros {
-    width: 65rem;
-    height: 65rem;
+    width: 58rem;
+    height: 58rem;
     border: 0.15rem solid #FA9C1F;
     border-radius: 50%;
     z-index: 2;
-    left: -9rem;
+    left: -4rem;
     top: 14rem;
 }
 
 .background-logo-heros {
-    left: 1rem !important;
+    left: 2.5rem !important;
     top: 16.2rem !important;
 }
 
 .container-sm-circles {
     width: 17rem;
-    top: 12rem;
-    left: 15rem;
+    top: 12.2rem;
+    left: 17rem;
     z-index: 2;
 }
 
@@ -63,8 +66,86 @@
     height: 2.5rem; 
 }
 
+.icons-character-shield {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
 .big-trace {
     width: 40rem; 
-    margin-left: 12rem;
-    margin-top: 4.2rem;   
+    margin-left: 9rem;
+    margin-top: 3.8rem;   
+}
+
+.infos-character2 {
+    width: 58rem;
+    height: 45rem;
+    top: 20rem;
+    left: 9rem;
+    background-color: white;    
+    z-index: 4;
+    border-radius: 5%;
+}
+
+.name-character {
+    width: 37.3rem;
+    height: 4.2rem;
+    color: white;
+    z-index: 4;
+    font-family: 'Audiowide', cursive;
+    top: 13rem;
+    left: 9rem;
+    font-size: 4.5rem;
+    font-style: italic;
+}
+
+
+.info-info {
+    width: 37.3rem;
+    height: 4.2rem;
+    border: 0.15rem solid rgba(128, 128, 128, 0.322);
+}
+
+.info-general {
+    height: 105%;
+    background-color: #FA9C1F;
+    margin-top: -2px;  
+    margin-left: -5px;  
+}
+
+.info-1 {
+    width: 25.3rem;
+}
+
+.info-2 {
+    width: 12.3rem;
+}
+
+.info-3 {
+    width: 15.3rem;    
+}
+
+.info-4 {
+    width: 31.5rem;
+}
+
+.container-avatar-big {
+    width: 37.3rem;
+        
+}
+
+.avatar-big {
+    width: 10rem;
+}
+
+.avatar-medium-border {
+    top: 52.5rem;
+    left: 12rem;
+    width: 8rem;
+    height: 8rem;
+    border: 0.15rem solid rgb(128, 128, 128, 0.322);
+}
+
+.avatar-medium {
+    width: 6.8rem;
 }
