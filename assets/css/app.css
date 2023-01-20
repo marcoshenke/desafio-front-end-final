@@ -50,6 +50,12 @@ section {
     font-weight: bolder;
 }
 
+.img-logo-overwatch {
+    width: 27.5rem;
+    height: 15rem;
+    margin-top: 6rem !important;
+}
+
 .button-acess {
     background-color: var(--orange);
     margin-bottom: 6rem;    
@@ -62,6 +68,7 @@ section {
     width: 27rem;
     height: 6rem;
     margin-top: 4rem;
+    font-size: 1.2rem;
 }
 
 .w-70 {
@@ -74,9 +81,7 @@ section {
     background-color: var(--orange);
     clip-path: polygon(88% 0, 0 0, 40% 50%);
     left: 22px; 
-    z-index: 2;
-    top: -10px;
-    
+    z-index: 2;   
 }
 
 .parallelogram {
@@ -174,10 +179,175 @@ section {
     border-radius: 5%;
 }
 
-@media only screen and (min-width: 1366px) {
-    .play-all {
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  .border1 {
+    height: 23rem;    
+  }
+
+  .img-logo-overwatch {
+    width: 20.5rem;
+    height: 10rem;
+    margin-top: 1rem !important;
+  }
+
+.button-acess {
+  margin-bottom: 6rem;    
+  height: 3.5rem;
+  width: 75% !important;
+}
+
+.input {
+  width: 75% !important;
+}
+
+  
+.play-all {
+    margin-top: -4rem;
+    height: 4rem;         
+    width: 75%;
+  }
+
+  .play-all-platsforms {
+    font-size: 0.8rem;
+  }
+
+.character {
+  right: -35rem;
+  top: -8rem;        
+  width: 37rem;
+}
+
+.logo-central {
+  top: 3rem;
+  right: -42rem;
+  opacity: 0.3;    
+  width: 25rem;
+}
+
+  .parallelogram {
+    width: 55rem;        
+    z-index: 2;    
+    left: 1.8rem;
+    top: 0px;     
+  }
+  
+  .parallelogram-2 {
+    left: 5rem;    
+  }
+   
+  .container-arrows {
+    width: 6rem;
+    height: 10rem;
+    left: 46rem;    
+  }    
+  
+  .arrow-common {
+    width: 2rem;
+    height: 2rem;         
+   }   
+
+  .ellipse {
+    width: 40rem;
+    bottom: -20rem;
+    right: -30rem;         
+    height: 40rem;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+  .border1 {
+    height: 23rem;    
+  } 
+   
+  .play-all {
         margin-top: -4rem;
+        width: 75%;         
     }
+
+    .play-all-platsforms {
+        font-size: 1rem;
+    }
+
+    .logo-central {
+        width: 25rem;
+        top: 10rem;
+        right: -50rem;
+    }
+
+    .img-logo-overwatch {
+        width: 20.5rem;
+        height: 10rem;
+        margin-top: 1rem !important;
+    }
+
+    .button-acess {
+        margin-bottom: 6rem;    
+        height: 3.5rem;
+        width: 75% !important;
+    }
+
+    .input {
+        width: 75% !important;
+    }
+
+    .character {
+        width: 37rem;
+        right: -35rem;
+        top: -7rem;        
+    }
+
+    .logo-central {
+        width: 28rem;
+        top: 4rem;
+        right: -45rem;
+        opacity: 0.3;    
+    }
+    
+    .parallelogram {
+        width: 55rem;        
+        background-color: rgb(0, 0, 0);
+        clip-path: polygon(15.8% 0%, 100% 0%, 95% 100%, 0% 100%);
+        z-index: 2;    
+        left: 4px;
+        top: 0px;        
+    }
+
+    .parallelogram-2 {
+        width: 55rem;
+        height: 100vh;        
+        clip-path: polygon(78% 0, 100% 0%, 100% 100%, 62% 100%);    
+        left: 8rem;
+        top: 0px;
+        z-index: 3;        
+    }
+
+    .triangle {
+        width: 10vw;
+        height: 100vh;
+        background-color: var(--orange);
+        clip-path: polygon(88% 0, 0 0, 40% 50%);
+        left: 22px; 
+        z-index: 2;   
+    }
+
+    .container-arrows {
+        left: 49rem;    
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .arrow-common {
+        width: 2.3rem;
+        height: 2.3rem;         
+    }   
+
+    .ellipse {
+        width: 40rem;
+        height: 40rem;
+        bottom: -20rem;
+        right: -30rem;         
+    }
+    
 }
 
 
