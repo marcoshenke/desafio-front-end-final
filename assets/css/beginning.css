@@ -197,7 +197,7 @@ nav {
   transform: scaleX(-1);
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+@media only screen and (min-width: 1280px) and (max-width: 1919px) {
   nav {
     gap: 2rem;
     font-size: 1.5rem;
@@ -226,71 +226,117 @@ nav {
     font-size: 3rem;    
 }
 
-.arrow-choose {   
-  left: -6.5rem;
-  top: 0rem;    
-  width: 4.5rem;
+  .arrow-choose {   
+    left: -6.5rem;
+    top: 0rem;    
+    width: 4.5rem;
+  }
+
+  .background-logo {
+    opacity: 40%;
+    z-index: 1;
+    top: 10rem;
+    left: 1.5rem;
+    width: 33rem;
+  }
+
+  .border1 {  
+    height: 22rem;   
+    left: 1rem;
+  }
+
+  .border2 {  
+    height: 22rem;      
+    top: 20rem;
+    left: -3.75rem;
+  }
+
+  .circle1 {
+    width: 15rem;
+    height: 15rem;    
+    z-index: 3;
+    border-radius: 50%;
+    top: 0rem;
+    left: 2rem;  
+  }
+
+  .circle2 {
+    width: 15rem;
+    height: 15rem;    
+    z-index: 3;
+    border-radius: 50%;
+    top: 15rem;
+    left: 10rem;  
+  }
+
+  .circle3 {
+    width: 15rem;
+    height: 15rem;    
+    z-index: 2;
+    border-radius: 50%;
+    top: 33rem;
+    left: -4rem;
+  }
+
+  .character1 {
+  z-index: 4;
+  width: 18rem;
+  margin-left: 0rem;
+  margin-top: 4rem;
+  }
+
+  .character2 {
+  z-index: 6;
+  width: 16rem;
+  margin-left: 15rem;
+  margin-top: 0rem;
+  }
+
+  .heros-big { 
+    font-size: 4rem; 
+    top: 21.5rem;
+    left: 28rem;
+    z-index: 6; 
+  }
+
+  .arrows {
+    width: 4.8rem;   
+    z-index: 6;
+    top: 34rem;
+    left: 33rem;
+  }    
 }
 
-.background-logo {
-  opacity: 40%;
-  z-index: 1;
-  top: 10rem;
-  left: 1.5rem;
-  width: 33rem;
+@media only screen and (min-width: 1366px) and (max-width: 1919px) {
+  .border1 {
+    width: 20rem;
+    height: 23rem;     
+    top: 0rem;
+    left: 1.3rem
 }
 
-.border1 {  
-  height: 22rem;   
-  left: 1rem;
-}
-
-.border2 {  
-  height: 22rem;      
-  top: 20rem;
-  left: -3.75rem;
-}
-
-.circle1 {
-  width: 15rem;
-  height: 15rem;    
-  z-index: 3;
-  border-radius: 50%;
-  top: 0rem;
-  left: 2rem;  
-}
-
-.circle2 {
-  width: 15rem;
-  height: 15rem;    
-  z-index: 3;
-  border-radius: 50%;
-  top: 15rem;
-  left: 10rem;  
-}
-
-.circle3 {
-  width: 15rem;
-  height: 15rem;    
-  z-index: 2;
-  border-radius: 50%;
-  top: 33rem;
-  left: -4rem;
+.border2 {
+    width: 20rem;
+    height: 32rem;        
+    top: 20rem;
+    left: -4.5rem;
 }
 
 .character1 {
-z-index: 4;
-width: 18rem;
-margin-left: 0rem;
-margin-top: 4rem;
+  z-index: 4;
+  align-self: end;
+  width: 20rem;
+  margin-left: -2rem;
+  margin-top: 4rem;
 }
 
 .character2 {
-z-index: 6;
-width: 16rem;
-margin-left: 15rem;
-margin-top: 0rem;
+  z-index: 6;
+  align-self: end;
+  width: 17rem;
+  margin-left: 17rem;
+  margin-top: -20rem;
+  transform: scaleX(-1);
+}
 }
 
-    
-}
