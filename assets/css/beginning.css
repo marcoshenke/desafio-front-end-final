@@ -8,8 +8,7 @@
     background-color: #1A0024;
     left:-73rem;
     top: 0px;
-    z-index: 1
-   
+    z-index: 1;   
 }
 
 .polygon-beg2 {
@@ -19,75 +18,74 @@
     background-color: #FA9C1F;
     left: 20rem;
     top: 0px;
-    z-index: 2;
-    
-   
+    z-index: 2;   
 }
 
 nav {
-    width: 100vw;
-    height: 8rem;
-    z-index: 4;
-    background-color: transparent;   
-    font-family: 'Play', sans-serif;
-    font-weight: 700;
-    font-size: 1.8rem;
-    gap: 20rem;
+  height: 8rem;
+  z-index: 4;
+  background-color: transparent;   
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  gap: 20rem;
+  width: 100vw;
 }
 
 .menu {
-    left: 6rem;
+  left: 6rem;
 }
+
 .menu-item-active {    
-    padding-block: 0.5rem;
-    padding-inline: 1.5rem;
-    transform: skewX(-10deg);
-    background-color: #DE3E3E;
-    color: white;
+  padding-inline: 1.5rem;
+  transform: skewX(-10deg);
+  background-color: #DE3E3E;
+  color: white;
+  padding-block: 0.5rem;
 }
 
 .menu-item {
-    color: black;
-    text-decoration: none;
+  text-decoration: none;
+  color: black;
 }
 
 .menu-item:hover {
-    color: #FA9C1F !important;
+  color: #FA9C1F !important;
 }
 
 .logo {
-    width: 4.5rem;
+  width: 4.5rem;
 }
 
 .avatar {
-    width: 4.8rem;    
+  width: 4.8rem;    
 }
 
 .play-ranked {
-    font-family: 'Play', sans-serif;
-    font-weight: 700;
-    margin-top: 21rem;
-    margin-left: 3rem;
-    font-size: 4rem;    
-    font-style: italic;
-    z-index: 2;
+  font-weight: 700;
+  margin-top: 21rem;
+  margin-left: 3rem;
+  font-size: 4rem;    
+  font-style: italic;
+  z-index: 2;
+  font-family: 'Play', sans-serif;
 }
 
 .arrow-choose {
-    width: 5rem;
-    height: 5rem;
-    background-color: #FA9C1F;
-    transform: rotate(45deg);
-    left: -6.5rem;
-    top: 0.5rem;    
+  height: 5rem;
+  background-color: #FA9C1F;
+  transform: rotate(45deg);
+  left: -6.5rem;
+  top: 0.5rem;    
+  width: 5rem;
 }
 
 .background-logo {
-    width: 45rem;
-    opacity: 40%;
-    z-index: 1;
-    top: 17rem;
-    left: 2.5rem;
+  opacity: 40%;
+  z-index: 1;
+  top: 17rem;
+  left: 2.5rem;
+  width: 45rem;
 }
 
 .heros-big {
@@ -197,4 +195,102 @@ nav {
   margin-left: 17rem;
   margin-top: 4rem;
   transform: scaleX(-1);
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+  nav {
+    gap: 2rem;
+    font-size: 1.5rem;
+    z-index: 10;
+  }
+
+  .polygon-beg {
+    width: 70rem;    
+    left:-30rem;   
+    z-index: 1;   
+    clip-path: polygon(46% 0, 100% 0, 100% 100%, 32% 100%);
+  }
+
+  .polygon-beg2 {
+    clip-path: polygon(53% 0, 100% 0, 100% 100%, 36% 100%);
+    width: 40rem;
+    height: 100vh;    
+    left: 12rem;
+    top: 0px; 
+    z-index: 4;  
+}
+
+  .play-ranked {    
+    margin-top: 15rem;
+    margin-left: 3rem;
+    font-size: 3rem;    
+}
+
+.arrow-choose {   
+  left: -6.5rem;
+  top: 0rem;    
+  width: 4.5rem;
+}
+
+.background-logo {
+  opacity: 40%;
+  z-index: 1;
+  top: 10rem;
+  left: 1.5rem;
+  width: 33rem;
+}
+
+.border1 {  
+  height: 22rem;   
+  left: 1rem;
+}
+
+.border2 {  
+  height: 22rem;      
+  top: 20rem;
+  left: -3.75rem;
+}
+
+.circle1 {
+  width: 15rem;
+  height: 15rem;    
+  z-index: 3;
+  border-radius: 50%;
+  top: 0rem;
+  left: 2rem;  
+}
+
+.circle2 {
+  width: 15rem;
+  height: 15rem;    
+  z-index: 3;
+  border-radius: 50%;
+  top: 15rem;
+  left: 10rem;  
+}
+
+.circle3 {
+  width: 15rem;
+  height: 15rem;    
+  z-index: 2;
+  border-radius: 50%;
+  top: 33rem;
+  left: -4rem;
+}
+
+.character1 {
+z-index: 4;
+width: 18rem;
+margin-left: 0rem;
+margin-top: 4rem;
+}
+
+.character2 {
+z-index: 6;
+width: 16rem;
+margin-left: 15rem;
+margin-top: 0rem;
+}
+
+    
 }
