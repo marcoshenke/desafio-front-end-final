@@ -312,7 +312,7 @@ nav {
     width: 20rem;
     height: 23rem;     
     top: 0rem;
-    left: 1.3rem
+    left: 1.3rem;   
 }
 
 .border2 {
@@ -338,5 +338,18 @@ nav {
   margin-top: -20rem;
   transform: scaleX(-1);
 }
+
+.heros-big { 
+  font-size: 4rem; 
+  top: 21.5rem;
+  left: 30rem;   
+}
+
+.arrows {
+  width: 4.8rem;   
+  z-index: 6;
+  top: 34rem;
+  left: 35rem;
+}   
 }
 

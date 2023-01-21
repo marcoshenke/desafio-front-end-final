@@ -151,19 +151,19 @@
 }
 
 .info-1 {
-    width: 25.3rem;
+    width: 65%;
 }
 
 .info-2 {
-    width: 12.3rem;
+    width: 35%;
 }
 
 .info-3 {
-    width: 15.3rem;    
+    width: 45%;    
 }
 
 .info-4 {
-    width: 31.5rem;
+    width: 85%;
 }
 
 .info-1-dva {
@@ -214,16 +214,128 @@
     width: 6.8rem;
 }
 
+@media only screen and (max-width:1280px) and (max-width: 1365px){
+    .heros-polygon {
+    clip-path: polygon(56% 0, 100% 0, 100% 100%, 44% 100%);
+    width: 90rem;
+    height: 100vh;
+    background-image: url(/assets/images/coliseu1.png);    
+    background-color: rgba(0, 0, 0, 0.952);
+    background-position: 20rem 0rem;
+    background-size: 100%;    
+    opacity: 90%;    
+    left:-47rem;
+    top: 0px;
+  }
+
+  .circle-heros {
+    width: 42rem;
+    height: 42rem;    
+    left: -1rem;
+    top: 11rem; 
+  }
+
+
+.container-sm-circles {
+  width: 17rem;
+  top: 9.5rem;
+  left: 11rem;  
+}
+
+.circle-hero-sm {
+  width: 3.5rem;
+  height: 3.5rem; 
+}
+
+.circle-hero-sm-exchange {
+  width: 3.5rem;
+  height: 3.5rem;  
+}
+
+.circle-hero-sm-exchange:hover {
+  width: 3.8rem;
+  height: 3.8rem; 
+}
+
+.icons-character {
+  width: 2rem;
+  height: 2rem; 
+}
+
+.icons-character-shield {
+  width: 2.3rem;
+  height: 2.3rem;
+}
+
+.big-trace {
+  width: 28rem; 
+  margin-left: 6rem;
+  margin-top: 0rem;   
+}
+
+.big-dva {
+  width: 35rem;
+}
+
+.infos-character2 {
+  width: 39rem;
+  height: 26rem;
+  top: 15rem;
+  left: 7rem;  
+}
+
+.name-character {
+  width: 37.3rem;
+  height: 4.2rem; 
+  top: 11.8rem;
+  left: 6.5rem;
+  font-size: 2.5rem; 
+}
+
+.info-info {
+  width: 23.3rem;
+  height: 3.2rem;
+  margin: -rem
+}
+
+.info-general {
+  height: 105%;
+  background-color: #FA9C1F;
+  margin-top: -2px;  
+  margin-left: -5px;  
+}
+
+.avatar-big {
+  width: 5rem;
+  bottom: 4rem;
+  position: absolute;
+}
+
+.avatar-big-dva {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(/assets/images/d.va-avatar.png);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: -2.5rem -2.8rem;
+  transform: scaleX(-1); 
+  
+}
+
+.avatar-medium-border {
+  top: 32.5rem;
+  left: 3rem;
+  width: 8rem;
+  height: 8rem; 
+}
+
+.avatar-medium {
+  width: 4rem;
+  height: 4rem;
+}
+
+}
 
 @media only screen and (min-width: 1366px) {
-    .infos-character2 {
-        width: 58rem;
-        height: 45rem;
-        top: 16rem;
-        left: 9rem;        
-    }
-
-    .name-character {
-        top: 10rem;
-    }
+  
 }
