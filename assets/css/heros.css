@@ -36,6 +36,16 @@
     color: #23B732;
 }
 
+.container-avatar-dva::after {
+  content: "●";
+  position: absolute;
+  bottom: -0.6rem;
+  font-size: 1.5rem;
+  left: 4.5rem;
+  transform: skewX(10deg);
+  color: #23B732;
+}
+
 .avatar-dva {
     width: 4.8rem;
     height: 4.8rem;
@@ -62,6 +72,16 @@
     top: 14rem;
 }
 
+.circle-heros-dva {
+  width: 58rem;
+  height: 58rem;
+  border: 0.15rem solid #DA89D0;
+  border-radius: 50%;
+  z-index: 2;
+  left: -4rem;
+  top: 14rem;
+}
+
 .background-logo-heros {
     left: 2.5rem !important;
     top: 16.2rem !important;
@@ -72,6 +92,7 @@
     top: 12.2rem;
     left: 17rem;
     z-index: 2;
+    gap: 1.8rem;
 }
 
 .circle-hero-sm {
@@ -81,6 +102,13 @@
     border-radius: 50%;
 }
 
+.circle-hero-sm-dva {
+  width: 4.2rem;  
+  border-radius: 50%;
+  height: 4.2rem;
+  background-color: #DA89D0;  
+}
+
 .circle-hero-sm-exchange {
     width: 4.2rem;
     height: 4.2rem;
@@ -88,10 +116,21 @@
     border-radius: 50%;
 }
 
+.circle-hero-sm-dva-exchange {
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: #DA89D0;
+  border-radius: 50%;
+}
+
 .circle-hero-sm-exchange:hover {
     width: 4.8rem;
-    height: 4.8rem;
-   
+    height: 4.8rem;   
+}
+
+.circle-hero-sm-dva-exchange:hover {
+  width: 4.8rem;
+  height: 4.8rem; 
 }
 
 .icons-character {
@@ -136,7 +175,6 @@
     font-style: italic;
 }
 
-
 .info-info {
     width: 37.3rem;
     height: 4.2rem;
@@ -148,6 +186,13 @@
     background-color: #FA9C1F;
     margin-top: -2px;  
     margin-left: -5px;  
+}
+
+.info-general-dva {
+  height: 105%;
+  background-color: #DA89D0;
+  margin-top: -2px;  
+  margin-left: -5px;  
 }
 
 .info-1 {
@@ -167,28 +212,29 @@
 }
 
 .info-1-dva {
-    width: 28.3rem;
+    width: 80%
 }
 
 .info-2-dva {
-    width: 19.3rem;
+    width: 50%;
 }
 
 .info-3-dva {
-    width: 15.3rem;    
+    width: 30%  
 }
 
 .info-4-dva {
-    width: 25.5rem;
+    width: 70%
 }
 
 .container-avatar-big {
-    width: 37.3rem;
-        
+    width: 37.3rem;        
 }
 
 .avatar-big {
     width: 10rem;
+    top: 4rem;
+    left: 17rem;  
 }
 
 .avatar-big-dva {
@@ -198,12 +244,13 @@
     background-size: 200%;
     background-repeat: no-repeat;
     background-position: -2.5rem -2.8rem;
-    transform: scaleX(-1) 
-    
+    transform: scaleX(-1);
+    top: 4rem;
+    left: 17rem;    
 }
 
 .avatar-medium-border {
-    top: 52.5rem;
+    top: 51.5rem;
     left: 12rem;
     width: 8rem;
     height: 8rem;
@@ -214,7 +261,21 @@
     width: 6.8rem;
 }
 
-@media only screen and (max-width:1280px) and (max-width: 1365px){
+.avatar-medium-dva {
+  width: 6.8rem;
+  height: 6.8rem;
+  background-image: url(/assets/images/d.va-avatar.png);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: -1.5rem -2.8rem;
+  transform: scaleX(-1)
+}
+
+.heart-icon {
+  margin: 0.8rem 1.2rem;
+}
+
+@media only screen and (min-width:1280px) and (max-width: 1366px){
     .heros-polygon {
     clip-path: polygon(56% 0, 100% 0, 100% 100%, 44% 100%);
     width: 90rem;
@@ -235,46 +296,75 @@
     top: 11rem; 
   }
 
+  .circle-heros-dva {
+    width: 42rem;
+    height: 42rem;    
+    left: -1rem;
+    top: 11rem; 
+  }
+
+  .background-logo-heros {
+  top: 12.8rem !important;
+  left: 3.5rem !important;
+}
+
 
 .container-sm-circles {
   width: 17rem;
   top: 9.5rem;
-  left: 11rem;  
+  left: 14.5rem;  
 }
 
 .circle-hero-sm {
-  width: 3.5rem;
-  height: 3.5rem; 
+  width: 2.8rem;
+  height: 2.8rem; 
+}
+
+.circle-hero-sm-dva {
+  width: 2.8rem;
+  height: 2.8rem; 
+}
+
+.circle-hero-sm-dva-exchange {
+  width: 2.8rem;
+  height: 2.8rem; 
 }
 
 .circle-hero-sm-exchange {
-  width: 3.5rem;
-  height: 3.5rem;  
+  width: 2.8rem;
+  height: 2.8rem; 
 }
 
 .circle-hero-sm-exchange:hover {
-  width: 3.8rem;
-  height: 3.8rem; 
+  width: 3rem;
+  height: 3rem; 
+}
+
+.circle-hero-sm-dva-exchange:hover {
+  width: 3rem;
+  height: 3rem; 
 }
 
 .icons-character {
-  width: 2rem;
-  height: 2rem; 
+  width: 1.8rem;
+  height: 1.8rem; 
 }
 
 .icons-character-shield {
-  width: 2.3rem;
-  height: 2.3rem;
+  bottom: 0rem;
+  right: 0rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .big-trace {
   width: 28rem; 
   margin-left: 6rem;
-  margin-top: 0rem;   
+  margin-top: 2rem;   
 }
 
 .big-dva {
-  width: 35rem;
+  width: 25rem;
 }
 
 .infos-character2 {
@@ -294,39 +384,50 @@
 
 .info-info {
   width: 23.3rem;
-  height: 3.2rem;
-  margin: -rem
+  height: 3.2rem;  
 }
 
 .info-general {
   height: 105%;
   background-color: #FA9C1F;
-  margin-top: -2px;  
+  margin-top: -1px;  
   margin-left: -5px;  
 }
 
+.info-general-dva {
+  height: 105%;
+  background-color: #DA89D0;
+  margin-top: -1px;  
+  margin-left: -5px;  
+}
+
+.container-avatar-big {
+  top: -3rem;
+  left: -5rem;
+}
+
 .avatar-big {
-  width: 5rem;
-  bottom: 4rem;
+  width: 6rem;
+  bottom: 5rem;
   position: absolute;
+  bottom: 2rem;
+  right: 21rem;
 }
 
 .avatar-big-dva {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(/assets/images/d.va-avatar.png);
-  background-size: 200%;
-  background-repeat: no-repeat;
-  background-position: -2.5rem -2.8rem;
-  transform: scaleX(-1); 
-  
+  width: 6rem;
+  height: 6rem;  
+  background-size: 180%;  
+  background-position: -1rem -1.8rem; 
+  top: 1rem;
+  left: 12rem;
 }
 
 .avatar-medium-border {
-  top: 32.5rem;
+  top: 34.5rem;
   left: 3rem;
-  width: 8rem;
-  height: 8rem; 
+  width: 5rem;
+  height: 5rem; 
 }
 
 .avatar-medium {
@@ -334,8 +435,33 @@
   height: 4rem;
 }
 
+.avatar-medium-dva {
+  width: 4.3rem;
+  height: 4.3rem;
+  background-image: url(/assets/images/d.va-avatar.png);
+  background-size: 180%;
+  background-repeat: no-repeat;
+  background-position: -1rem -0.8rem;
+  transform: scaleX(-1)
 }
 
-@media only screen and (min-width: 1366px) {
-  
+.heart-icon {
+  margin: 0.8rem 1rem;
+}
+
+}
+
+@media only screen and (min-width: 1366px) and (min-width: 1919px) {
+  .avatar-medium-border {
+    top: 34.5rem;
+    left: 4rem;
+    width: 6rem;
+    height: 6rem; 
+  }
+
+  .avatar-medium {
+    width: 5rem;
+    height: 5rem;
+  }
+ 
 }

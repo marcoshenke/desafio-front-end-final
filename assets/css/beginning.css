@@ -21,6 +21,16 @@
     z-index: 2;   
 }
 
+.polygon-beg2-dva {
+  clip-path: polygon(73% 0, 100% 0, 100% 100%, 38% 100%);
+  width: 40rem;
+  height: 100vh;
+  background-color: #DA89D0;
+  left: 20rem;
+  top: 0px;
+  z-index: 2;   
+}
+
 nav {
   height: 8rem;
   z-index: 4;
@@ -197,7 +207,7 @@ nav {
   transform: scaleX(-1);
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1919px) {
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
   nav {
     gap: 2rem;
     font-size: 1.5rem;
@@ -218,6 +228,15 @@ nav {
     left: 12rem;
     top: 0px; 
     z-index: 4;  
+}
+
+.polygon-beg2-dva {
+  clip-path: polygon(53% 0, 100% 0, 100% 100%, 36% 100%);
+  width: 40rem;
+  height: 100vh;    
+  left: 12rem;
+  top: 0px; 
+  z-index: 4;  
 }
 
   .play-ranked {    
@@ -307,7 +326,7 @@ nav {
   }    
 }
 
-@media only screen and (min-width: 1366px) and (max-width: 1919px) {
+@media only screen and (min-width: 1366px) and (min-width: 1919px) {
   .border1 {
     width: 20rem;
     height: 23rem;     
