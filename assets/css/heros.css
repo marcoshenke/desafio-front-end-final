@@ -289,6 +289,35 @@
     top: 0px;
   }
 
+  .rectangle-heros {
+    width: 16rem;
+    height: 4rem;
+    background-color: white;    
+}
+
+.container-avatar::after {
+  bottom: -0.5rem;
+  left: 2.3rem;
+  font-size: 1rem;  
+}
+
+.avatar-dva {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-position: -1.2rem -1rem;
+}
+
+.container-avatar-dva::after {
+  bottom: -0.5rem;
+  font-size: 1rem;
+  left: 3.1rem;
+}
+
+.icons-menu {
+  width: 2rem;
+  height: 2rem;
+}
+
   .circle-heros {
     width: 42rem;
     height: 42rem;    
@@ -307,7 +336,6 @@
   top: 12.8rem !important;
   left: 3.5rem !important;
 }
-
 
 .container-sm-circles {
   width: 17rem;
@@ -369,7 +397,7 @@
 
 .infos-character2 {
   width: 39rem;
-  height: 26rem;
+  height: 35rem;
   top: 15rem;
   left: 7rem;  
 }
@@ -451,7 +479,7 @@
 
 }
 
-@media only screen and (min-width: 1366px) and (min-width: 1919px) {
+@media only screen and (max-width: 1366px) and (min-width: 1919px) {
   .avatar-medium-border {
     top: 34.5rem;
     left: 4rem;
@@ -463,5 +491,6 @@
     width: 5rem;
     height: 5rem;
   }
+  
  
 }
