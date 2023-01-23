@@ -85,6 +85,11 @@ nav {
   font-family: 'Play', sans-serif;
 }
 
+.options:hover {
+  font-size: 4.5rem;
+  color: #1A0024;
+}
+
 .arrow-choose {
   height: 5rem;
   background-color: #FA9C1F;
@@ -230,6 +235,10 @@ nav {
     width: 3.5rem;
   }
 
+  .rectangle {
+    height: 4rem;
+  }
+
   .square {
     width: 4rem;
     height: 4rem;
@@ -264,6 +273,10 @@ nav {
     margin-top: 15rem;
     margin-left: 3rem;
     font-size: 3rem;    
+}
+
+.options:hover {
+  font-size: 3.25rem;
 }
 
   .arrow-choose {   
