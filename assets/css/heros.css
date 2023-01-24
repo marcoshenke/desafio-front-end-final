@@ -200,7 +200,7 @@
 }
 
 .info-1 {
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
   animation-name: slidein;
   width: 65%;
 }
@@ -216,7 +216,7 @@
 }
 
 .info-2 {
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
   animation-name: slidein2-trace ;
   width: 35%;
 }
@@ -232,7 +232,7 @@
 }
 
 .info-3 {
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
   animation-name: slidein3-trace ;
   width: 45%;
 }
@@ -248,7 +248,7 @@
 }
 
 .info-4 {
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
   animation-name: slidein4-trace ;
   width: 85%;
 }
@@ -264,7 +264,7 @@
 }
 
 .info-1-dva {
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
   animation-name: slidein1-dva ;
   width: 85%;
 }
@@ -280,7 +280,7 @@
 }
 
 .info-2-dva {
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
   animation-name: slidein2-dva ;
   width: 50%;
 }
@@ -296,7 +296,7 @@
 }
 
 .info-3-dva {
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
   animation-name: slidein3-dva ;
   width: 50%;
 }
@@ -312,7 +312,7 @@
 }
 
 .info-4-dva {
-  animation-duration: 2.5s;
+  animation-duration: 3.5s;
   animation-name: slidein4-dva ;
   width: 60%;
 }
