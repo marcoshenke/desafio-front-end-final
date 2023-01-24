@@ -196,35 +196,131 @@
 }
 
 .info-1 {
+  animation-duration: 2.5s;
+  animation-name: slidein;
+  width: 65%;
+}
+
+@keyframes slidein {
+  from {
+    width: 0%
+  }
+
+  to {    
     width: 65%;
+  }
 }
 
 .info-2 {
+  animation-duration: 2.5s;
+  animation-name: slidein2-trace ;
+  width: 35%;
+}
+
+@keyframes slidein2-trace {
+  from {
+    width: 0%
+  }
+
+  to {    
     width: 35%;
+  }
 }
 
 .info-3 {
-    width: 45%;    
+  animation-duration: 2.5s;
+  animation-name: slidein3-trace ;
+  width: 45%;
+}
+
+@keyframes slidein3-trace {
+  from {
+    width: 0%
+  }
+
+  to {    
+    width: 45%;
+  }   
 }
 
 .info-4 {
+  animation-duration: 2.5s;
+  animation-name: slidein4-trace ;
+  width: 85%;
+}
+
+@keyframes slidein4-trace {
+  from {
+    width: 0%
+  }
+
+  to {    
     width: 85%;
+  } 
 }
 
 .info-1-dva {
-    width: 80%
+  animation-duration: 2.5s;
+  animation-name: slidein1-dva ;
+  width: 85%;
+}
+
+@keyframes slidein1-dva {
+  from {
+    width: 0%
+  }
+
+  to {    
+    width: 85%;
+  } 
 }
 
 .info-2-dva {
+  animation-duration: 2.5s;
+  animation-name: slidein2-dva ;
+  width: 50%;
+}
+
+@keyframes slidein2-dva {
+  from {
+    width: 0%
+  }
+
+  to {    
     width: 50%;
+  } 
 }
 
 .info-3-dva {
-    width: 30%  
+  animation-duration: 2.5s;
+  animation-name: slidein3-dva ;
+  width: 50%;
+}
+
+@keyframes slidein3-dva {
+  from {
+    width: 0%
+  }
+
+  to {    
+    width: 50%;
+  } 
 }
 
 .info-4-dva {
-    width: 70%
+  animation-duration: 2.5s;
+  animation-name: slidein4-dva ;
+  width: 60%;
+}
+
+@keyframes slidein4-dva {
+  from {
+    width: 0%
+  }
+
+  to {    
+    width: 60%;
+  } 
 }
 
 .container-avatar-big {
