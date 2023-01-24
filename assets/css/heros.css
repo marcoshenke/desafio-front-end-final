@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Play:wght@400;700&display=swap');
 
+.animate__fadeIn {
+  --animate-duration: 1s;
+}
+
 .heros-polygon {
     clip-path: polygon(48% 0, 100% 0, 100% 100%, 38% 100%);
     width: 160rem;
